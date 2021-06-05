@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Location Reminder</string>
+    <string name="welcome_message">Welcome to Location Reminder</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="menu_logout">LOGOUT</string>
+    <string name="no_data">No Data</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBnoRMPgKiZxkQPtfOBPwmW8siKjGseA28</string>
+    <string name="save">Save Location</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="reminder_title">Reminder Title</string>
+    <string name="description">Description</string>
+    <string name="add_reminder">Save Reminder</string>
+    <string name="location">Location</string>
+    <string name="select_location">Select Location</string>
+    <string name="title">Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
