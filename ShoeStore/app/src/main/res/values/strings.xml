@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Enter your Email</string>
+    <string name="password_hint">Enter your Password</string>
+    <string name="new_account">New Account</string>
+    <string name="welcome_title">Welcome to Shoe Store App</string>
+    <string name="welcome_message">Here is the best application designed for you to pick your favorite shoe</string>
+    <string name="finish">Finish</string>
+    <string name="instruction_title">How to Use the Application?</string>
+    <string name="instruction_message">The application will show a list of shoes and you can add a new shoe by pressing the plus (+) button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_shoe">Add Shoe</string>
+    <string name="cancel">Cancel</string>
+    <string name="shoe_name">Enter Shoe Name</string>
+    <string name="shoe_company">Enter Shoe Company</string>
+    <string name="shoe_size">Enter Shoe Size</string>
+    <string name="show_description">Enter Show Description</string>
+    <string name="shoe_image">Shoe Image</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
