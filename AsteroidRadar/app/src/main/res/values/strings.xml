@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Asteroid Radar</string>
+    <string name="image_of_the_day">Image of the day</string>
+    <string name="approach_date">Approach date</string>
+    <string name="absolute_magnitude">Absolute magnitude</string>
+    <string name="estimated_diameter">Estimated diameter</string>
+    <string name="relative_velocity">Relative velocity</string>
+    <string name="distance_from_earth">Distance from earth</string>
+</resources>
