@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.udacity.project4.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_reminderFragment"
+            app:destination="@id/reminderFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="logout"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.udacity.project4.ui.reminder.ReminderFragment"
+        android:label="Reminders"
+        tools:layout="@layout/fragment_reminder">
+        <action
+            android:id="@+id/action_reminderFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/reminderFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_reminderFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.udacity.project4.ui.map.MapsFragment"
+        android:label="MapsFragment">
+        <action
+            android:id="@+id/action_mapsFragment_to_saveFragment"
+            app:destination="@id/saveFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/saveFragment"
+        android:name="com.udacity.project4.ui.save.SaveFragment"
+        android:label="Add Reminder"
+        tools:layout="@layout/fragment_save">
+        <action
+            android:id="@+id/action_saveFragment_to_reminderFragment"
+            app:destination="@id/reminderFragment" />
+        <argument
+            android:name="latitude"
+            app:argType="float"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="longitude"
+            app:argType="float"
+            android:defaultValue="0.0" />
+    </dialog>
+
+</navigation>
