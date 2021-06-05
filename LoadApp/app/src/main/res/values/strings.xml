@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoadingStatuts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coil_library">Coil Library</string>
+    <string name="starter_code">Starter Code</string>
+    <string name="retrofit_library">Retrofit Library</string>
+    <string name="please_select_a_repository">Please select a repository:</string>
+    <string name="ok">OK</string>
+</resources>
